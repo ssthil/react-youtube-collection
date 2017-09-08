@@ -1,0 +1,43 @@
+.Filter-section {
+    margin-bottom: 15px;
+}
+iframe {
+    height:280px;
+    width:100%;
+    overflow:hidden;overflow-x:hidden;overflow-y:hidden;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    iframe {
+        height:280px;
+    }
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    iframe {
+        height:280px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    iframe {
+        height:220px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    iframe {
+        height:180px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    iframe {
+        height:120px;
+    }
+}
